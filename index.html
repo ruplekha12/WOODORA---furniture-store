@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woodora — Furniture Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Woodora</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#cart">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Bring Comfort & Style to Your Home</h1>
+    <p>Shop premium chairs, dining sets, and more at Woodora</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products">
+    <h2>Our Collection</h2>
+    <div class="product-grid">
+      <!-- Example Product Card -->
+      <div class="product">
+        <img src="Chair.jpg" alt="Chair">
+        <h3>Elegant Chair</h3>
+        <p>₹2,499</p>
+        <button class="add-btn" data-name="Elegant Chair" data-price="2499">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Dining Set.jpg" alt="Dining Set">
+        <h3>Dining Set</h3>
+        <p>₹12,999</p>
+        <button class="add-btn" data-name="Dining Set" data-price="12999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="small book shelf.jpg" alt="Bookshelf">
+        <h3>Bookshelf</h3>
+        <p>₹4,999</p>
+        <button class="add-btn" data-name="Bookshelf" data-price="4999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="cabinet.jpg" alt="cabinet">
+        <h3>Cabinet</h3>
+        <p>₹6,999</p>
+        <button class="add-btn" data-name="Cabinet" data-price="6999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Chair and Table set.jpg" alt="Chair and Table set">
+        <h3>Chair and Table set</h3>
+        <p>₹12,999</p>
+        <button class="add-btn" data-name="Chair and Table" data-price="12999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="dressing table set.jpg" alt="Dressing Table Set">
+        <h3>Dressing Table Set</h3>
+        <p>₹8,999</p>
+        <button class="add-btn" data-name="Dressing Table Set" data-price="8999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="home decor.jpg" alt="Home Decor">
+        <h3>Home Decor</h3>
+        <p>₹3,999</p>
+        <button class="add-btn" data-name="Home Decor" data-price="3999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Kitchen set.jpg" alt="Kitchen Set">
+        <h3>Kitchen Set</h3>
+        <p>₹9,999</p>
+        <button class="add-btn" data-name="Kitchen Set" data-price="9999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="personal table.jpg" alt="Personal Table">
+        <h3>Personal Table</h3>
+        <p>₹8,999</p>
+        <button class="add-btn" data-name="Personal Table" data-price="8999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="study table.jpg" alt="Study Table">
+        <h3>Study Table</h3>
+        <p>₹11,999</p>
+        <button class="add-btn" data-name="Study Table" data-price="11999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="table set.jpg" alt="Table Set">
+        <h3>Table Set</h3>
+        <p>₹8,999</p>
+        <button class="add-btn" data-name="Table Set" data-price="8999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="table with drawer.jpg" alt="Table with Drawer">
+        <h3>Table with Drawer</h3>
+        <p>₹5,999</p>
+        <button class="add-btn" data-name="Table with Drawer" data-price="5999">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="Table.jpg" alt="Table">
+        <h3>Table</h3>
+        <p>7,999</p>
+        <button class="add-btn" data-name="Table" data-price="7999">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: ₹0</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Woodora — All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
